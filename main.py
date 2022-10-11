@@ -6,7 +6,7 @@ url = 'https://knowthychoice.in/blog/'
 
 my_headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OSX 10_14_3) "
                            "AppleWebKit/537.36 (KHTML, like Gecko)Chrome/71.0.3578.98 Safari/537.36",
-              "Accept": "*/*", "content-encoding": "gzip", "content-type": "text/html; charset=utf-8"}
+              "Accept": "*/*", "content-type": "text/html; charset=utf-8"}
 
 response = requests.get(url, headers=my_headers)
 soup = BeautifulSoup(response.content, 'html.parser')

@@ -1,2 +1,2 @@
 # Web-Scrapping
-Assingment for internship
+Assingment for internship using BeautifulSoup
